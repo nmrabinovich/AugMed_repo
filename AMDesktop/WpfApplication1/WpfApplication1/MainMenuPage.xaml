@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApplication1.MainMenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}"
+    Title="MainMenuPage" Height="700" Width="700" Loaded="Window_Loaded">
+    <Grid>
+        <Image Margin="0,20.907,0,0" Name="image1" Stretch="Fill" Source="watermark.png" Opacity="0.5" Height="618.12" VerticalAlignment="Top" HorizontalAlignment="Left" Width="678" />
+        <Button Margin="12,476.306,0,0" Name="ModSettings" BorderBrush="Transparent" Background="Transparent" FontSize="15" FontFamily="Cambria" FontWeight="Bold" Click="button2_Click" HorizontalAlignment="Left" Width="119.988" Height="22.983" VerticalAlignment="Top" Foreground="Blue">Modify Settings</Button>
+        <Button Margin="12,533.556,0,0" Name="AddEq" BorderBrush="Transparent" Background="Transparent" FontSize="15" FontFamily="Cambria" FontWeight="Bold" Click="button3_Click" HorizontalAlignment="Left" Width="199.071" Height="23" VerticalAlignment="Top" Foreground="Blue">Add Additional Equipment</Button>
+        <Menu Height="22" Name="menu1" VerticalAlignment="Top" FontSize="15" FontFamily="Cambria">
+            <MenuItem Header="_Menu" Click="MenuItem_Click">
+                <MenuItem Header="_Exit"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,88.173,0,0" Name="lastNameTxt" VerticalAlignment="Top" Width="160.893" />
+        <TextBox Height="23" Margin="207.252,88.173,0,0" Name="firstNameTxt" VerticalAlignment="Top" HorizontalAlignment="Left" Width="144.417" />
+        <TextBox Height="23" Margin="408.141,88.173,0,0" Name="middleNameTxt" VerticalAlignment="Top" HorizontalAlignment="Left" Width="31.815" />
+        <TextBlock Height="21" HorizontalAlignment="Left" Margin="12,60.903,0,0" Name="lastName" VerticalAlignment="Top" Width="103.626" Text="Last Name" FontFamily="Cambria" FontSize="15" FontWeight="Bold" SnapsToDevicePixels="False" />
+        <TextBlock Height="21" HorizontalAlignment="Left" Margin="207.252,59.993,0,0" Name="firstName" VerticalAlignment="Top" Width="120" Text="First Name" FontFamily="Cambria" FontSize="15" FontWeight="Bold" />
+        <TextBlock Height="21" HorizontalAlignment="Left" Margin="417.231,59.993,0,0" Name="middleName" VerticalAlignment="Top" Width="31.929" Text="M" FontFamily="Cambria" FontSize="15" FontWeight="Bold" />
+        <Button Height="23" Margin="12,127.26,0,0" Name="SearchByMarker" VerticalAlignment="Top" HorizontalAlignment="Left" Width="111.807" FontSize="13" FontFamily="Cambria" Focusable="True" BorderBrush="Transparent" Background="Transparent" FontWeight="Bold" BorderThickness="0" Foreground="Blue" Click="SearchByMarker_Click">Search by marker</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="474.831,87.653,0,0" Name="SearchPts" VerticalAlignment="Top" Width="75" FontFamily="Cambria" FontSize="15" Click="button4_Click">Search</Button>
+        <Button HorizontalAlignment="Left" Margin="12,427.203,0,0" Name="NewMarker" Width="103.626" FontFamily="Cambria" FontSize="15" FontWeight="Bold" Foreground="Blue" BorderBrush="Transparent" BorderThickness="0" Background="Transparent" Click="NewMarker_Click" Height="23" VerticalAlignment="Top">New Marker</Button>
+        <ListView Height="100" Margin="12,198.162,0,0" Name="PatientView" VerticalAlignment="Top" SelectionChanged="PatientView_SelectionChanged" ItemsSource="{Binding}" HorizontalAlignment="Left" Width="606.006" Foreground="Black" FontWeight="Normal" FontFamily="Segui Bold">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Equipment" Width ="150" DisplayMemberBinding="{Binding Path=Equipment}" />
+                    <GridViewColumn Header="Control" Width="175" DisplayMemberBinding="{Binding Path=Control}" />
+                    <GridViewColumn Header="Setting" Width="275" DisplayMemberBinding="{Binding Path=Setting}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

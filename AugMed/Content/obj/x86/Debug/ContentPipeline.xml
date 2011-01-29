@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sample.spritefont</Source>
+      <Name>Sample</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\bin\x86\Debug\Content\Sample.xnb</Output>
+      <Time>2010-11-27T17:34:17.3092-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Arial-24-Vector.spritefont</Source>
+      <Name>Arial-24-Vector</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>NuclexVectorFontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\bin\x86\Debug\Content\Arial-24-Vector.xnb</Output>
+      <Time>2010-12-07T14:46:02.4054-05:00</Time>
+    </Item>
+    <Item>
+      <Source>watermark.png</Source>
+      <Name>watermark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\bin\x86\Debug\Content\watermark.xnb</Output>
+      <Time>2011-01-10T17:56:52.244-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\nmrabinovich\Documents\Senior Design\GoblinXNAv3.4\GoblinXNAv3.4\AugMed\AugMed\AugMed\Nuclex.Fonts.Content.TrueTypeImporter.dll</Key>
+        <Value>2010-09-26T23:38:21.004-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-09-26T10:31:38.139-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

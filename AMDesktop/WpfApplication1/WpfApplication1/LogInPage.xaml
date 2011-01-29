@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication1.LogInPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="LogInPage" Height="300" Width="300">
+    <Grid Background="White">
+            <Image Margin="0,0,12,12" Name="image1" Stretch="Fill" Source="file:///C:/Users/nmrabinovich/Documents/Senior Design/GoblinXNAv3.4/GoblinXNAv3.4/AugMed/AugMed/AugMed/watermark.png" IsEnabled="True" Opacity="0.5" />
+            <TextBlock Height="21" HorizontalAlignment="Left" Margin="12,105,0,0" Name="textBlock1" VerticalAlignment="Top" Width="90" FontFamily="Cambria" FontSize="15" FontWeight="Bold" Text="Username:" Foreground="Black" />
+            <TextBlock Height="21" HorizontalAlignment="Left" Margin="12,0,0,105" Name="textBlock2" VerticalAlignment="Bottom" Width="90" Text="Password:" Foreground="Black" FontFamily="Cambria" FontSize="15" FontWeight="Bold" />
+            <TextBox Margin="120,103,70,0" Name="txtUserName" Height="23" VerticalAlignment="Top" />
+            <PasswordBox Height="23" Margin="120,0,70,103" Name="txtPassword" VerticalAlignment="Bottom" />
+        <TextBlock Height="21" Margin="12,0,26,63" Name="ErrorBox" VerticalAlignment="Bottom" FontFamily="Cambria" FontSize="15" FontWeight="Bold" Foreground="BlueViolet" />
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,24" Name="button1" VerticalAlignment="Bottom" Width="75" Click="button1_Click_1">Login</Button>
+    </Grid>
+</Window>

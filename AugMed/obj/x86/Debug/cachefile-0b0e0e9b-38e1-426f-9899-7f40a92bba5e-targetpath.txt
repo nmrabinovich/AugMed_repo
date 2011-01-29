@@ -1,0 +1,6 @@
+Content\Sample.xnb
+Content\Arial-24-Vector.xnb
+Content\watermark.xnb
+Content\Sample.spritefont
+Content\Arial-24-Vector.spritefont
+Content\watermark.png
